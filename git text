@@ -1,0 +1,53 @@
+rosoft Windows [Version 10.0.26100.4946]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\User\Desktop\AI_bot\Day 4>cd Express
+
+C:\Users\User\Desktop\AI_bot\Day 4\Express>mkdir app1
+
+C:\Users\User\Desktop\AI_bot\Day 4\Express>cd app1
+
+C:\Users\User\Desktop\AI_bot\Day 4\Express\app1>npm init -y
+Wrote to C:\Users\User\Desktop\AI_bot\Day 4\Express\app1\package.json:
+
+{
+  "name": "app1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
+
+
+
+
+C:\Users\User\Desktop\AI_bot\Day 4\Express\app1>npm install express
+
+added 67 packages, and audited 68 packages in 5s
+
+14 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\User\Desktop\AI_bot\Day 4\Express\app1>npm install typescript ts-node @types/node @types/express --save-dev
+
+added 30 packages, and audited 98 packages in 10s
+
+14 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\User\Desktop\AI_bot\Day 4\Express\app1>npx tsc --init
+
+Created a new tsconfig.json
+                                                                                                                     TS
+You can learn more at https://aka.ms/tsconfig
+
+C:\Users\User\Desktop\AI_bot\Day 4\Express\app1>
