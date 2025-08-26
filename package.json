@@ -1,10 +1,9 @@
-
 {
   "name": "app-1",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "watch:dev":"tsc --watch",
+    "watch:dev": "tsc --watch",
     "dev": "nodemon --exec ts-node src/index.ts",
     "build": "tsc",
     "start": "node dist/index.js"
